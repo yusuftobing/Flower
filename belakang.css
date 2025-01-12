@@ -1816,28 +1816,32 @@ body {
   transform: scale(0.5) rotate(-29deg);
 }
 .bubble:nth-child(6) .heart {
-  -webkit-animation: love 3s forwards infinite 0.75s;
-  animation: love 3s forwards infinite 0.75s;
-  -webkit-transform: scale(0.5) rotate(35deg);
-  transform: scale(0.5) rotate(35deg);
+  -webkit-animation: love 2s forwards infinite 0.5s; /* Reduced duration and delay */
+  animation: love 2s forwards infinite 0.5s; /* Reduced duration and delay */
+  -webkit-transform: scale(0.4) rotate(35deg); /* Reduced scale */
+  transform: scale(0.4) rotate(35deg); /* Reduced scale */
+  will-change: transform, opacity; /* Hinting the browser */
 }
 .bubble:nth-child(7) .heart {
-  -webkit-animation: love 3s forwards infinite 0.9s;
-  animation: love 3s forwards infinite 0.9s;
-  -webkit-transform: scale(0.5) rotate(-5deg);
-  transform: scale(0.5) rotate(-5deg);
+  -webkit-animation: love 2s forwards infinite 0.6s; /* Reduced duration and delay */
+  animation: love 2s forwards infinite 0.6s; /* Reduced duration and delay */
+  -webkit-transform: scale(0.4) rotate(-5deg); /* Reduced scale */
+  transform: scale(0.4) rotate(-5deg); /* Reduced scale */
+  will-change: transform, opacity; /* Hinting the browser */
 }
 .bubble:nth-child(8) .heart {
-  -webkit-animation: love 3s forwards infinite 1.05s;
-  animation: love 3s forwards infinite 1.05s;
-  -webkit-transform: scale(0.5) rotate(40deg);
-  transform: scale(0.5) rotate(40deg);
+  -webkit-animation: love 2s forwards infinite 0.7s; /* Reduced duration and delay */
+  animation: love 2s forwards infinite 0.7s; /* Reduced duration and delay */
+  -webkit-transform: scale(0.4) rotate(40deg); /* Reduced scale */
+  transform: scale(0.4) rotate(40deg); /* Reduced scale */
+  will-change: transform, opacity; /* Hinting the browser */
 }
 .bubble:nth-child(9) .heart {
-  -webkit-animation: love 3s forwards infinite 1.2s;
-  animation: love 3s forwards infinite 1.2s;
-  -webkit-transform: scale(0.5) rotate(-35deg);
-  transform: scale(0.5) rotate(-35deg);
+  -webkit-animation: love 2s forwards infinite 0.8s; /* Reduced duration and delay */
+  animation: love 2s forwards infinite 0.8s; /* Reduced duration and delay */
+  -webkit-transform: scale(0.4) rotate(-35deg); /* Reduced scale */
+  transform: scale(0.4) rotate(-35deg); /* Reduced scale */
+  will-change: transform, opacity; /* Hinting the browser */
 }
 .bubble:nth-child(10) .heart {
   -webkit-animation: love 3s forwards infinite 1.35s;
