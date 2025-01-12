@@ -1944,3 +1944,23 @@ body {
     filter: blur(0.2vmin); /* Sedikit lebih tajam untuk layar kecil */
   }
 }
+
+/* Reduce the number of love animations */
+.bubble:nth-child(1) .heart,
+.bubble:nth-child(2) .heart,
+.bubble:nth-child(3) .heart,
+.bubble:nth-child(4) .heart,
+.bubble:nth-child(5) .heart,
+.bubble:nth-child(10) .heart,
+.bubble:nth-child(11) .heart,
+.bubble:nth-child(12) .heart,
+.bubble:nth-child(13) .heart,
+.bubble:nth-child(14) .heart,
+.bubble:nth-child(15) .heart,
+.bubble:nth-child(16) .heart,
+.bubble:nth-child(17) .heart,
+.bubble:nth-child(18) .heart,
+.bubble:nth-child(19) .heart,
+.bubble:nth-child(20) .heart {
+  display: none; /* Hide hearts for these bubbles */
+}
